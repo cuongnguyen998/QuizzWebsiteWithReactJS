@@ -1,0 +1,101 @@
+.Grid-Container{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 15% 70% 15% ;
+    grid-gap: 10 px; 
+    grid-template-rows: 1fr auto;
+    border-color: blue;
+}
+.Slide-Bar{
+    grid-row: 1 / span 3;
+    grid-column: 1/ 2;
+    margin-left: 5px;
+}
+.header{
+    display: block;
+    font-size: 18px;
+    color: cornflowerblue;
+    text-align: left;
+    margin-top: 10px;
+    grid-column: 2 / span 2;
+}
+.LogoTitle{
+    display: block;
+    margin-top: 10px;
+}
+.title{
+    font-size: 20px;
+    color: cornflowerblue;
+    margin-top: 100px;
+    text-align: end;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.MenuList{
+    display: flex;
+    flex-direction: column;
+}
+.MenuItemDisplay{
+    display: block;
+    padding: 8px 24px;
+    transition: all 2s linear;
+    font-size: 16px;
+    font-weight: 600;
+    color: #007ee5 !important;
+    border-right: 2px solid #389bff;
+
+}
+.MenuItemBlind{
+    display: block;
+    padding: 8px 24px;
+    transition: all 2s linear;
+    font-size: 16px;
+    color: #999999;
+    border-right: 2px solid transparent;
+}
+.img{
+    margin-bottom: 15px;
+}
+.mr-5{
+    margin-right: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.ml-10{
+    margin-left: 10px
+}
+.formInformation{
+    display: block;
+    grid-row: 2 / auto;
+    grid-column: 2 / 3;
+    text-align: left;
+    margin-left: 10px;
+}
+.algL{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.textarea{
+    width: 100%;
+    height: 300px;
+}
+.select{
+    display: initial;
+    
+}
+.buttonArea{
+    grid-column: 3;
+    grid-row: 2;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.btnCustom{
+    width: 100%;
+    margin-top:10px;
+}
+
